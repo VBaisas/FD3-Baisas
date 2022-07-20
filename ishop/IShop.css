@@ -1,0 +1,29 @@
+table,
+th,
+td {
+    border: 1px solid;
+    padding: 5px 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.Image {
+    height: 50px;
+}
+
+.ProductName {
+    width: 200px;
+}
+
+.Price, .ImageCell, .Quantity {
+    text-align: center;
+    width: 70px;
+}
