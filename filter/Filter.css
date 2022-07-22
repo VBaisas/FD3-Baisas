@@ -1,0 +1,11 @@
+.Clear {
+    margin: 3px;
+}
+
+.WordsDisplay {
+    width: 230px;
+    height: 100px;
+    border: solid 1px black;
+    overflow: scroll;
+    margin-top: 10px;
+}
