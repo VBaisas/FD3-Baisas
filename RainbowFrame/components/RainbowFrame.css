@@ -1,0 +1,10 @@
+﻿.Frame {
+    text-align: center;
+    margin: 7px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Content {
+    margin: 20px;
+}
