@@ -1,0 +1,21 @@
+.SearchField {
+    width: 200px;
+    border-color: #5bcbd4;
+    border-radius: 3px;
+}
+
+.SubmitSearch {
+    background-color: #5e8377;
+    color: white;
+    border-color: #5bcbd4;
+    border-radius: 3px;
+    margin: 0 4px;
+}
+
+@media only all and (max-width: 795px) {
+    .Search {
+        margin: 30px 0 10px 0;
+        text-align: right;
+    }
+}
+

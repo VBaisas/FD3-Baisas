@@ -1,0 +1,21 @@
+.Footer {
+    margin-top: auto;
+    background-color: #3B4C54;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.TMDBLogo {
+    height: 40px;
+    margin: 20px;
+}
+
+@media only all and (max-width: 585px) {
+    .Footer {
+        font-size: 12px;
+    }
+}
+

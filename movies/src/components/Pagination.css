@@ -1,0 +1,25 @@
+﻿.Pagination {
+  display: flex;
+  justify-content: center;
+  margin: 25px auto;
+  text-align: center;
+  align-items: center;
+  background-color: #3B4C54;;
+  width: 200px;
+  height: 30px;
+  color: #5BBD9C;
+  border-radius: 5px;
+}
+
+.Pagination a {
+  color: #5bcbd4;
+}
+
+.PaginationPage {
+  margin: 0 25px;
+}
+
+
+
+
+

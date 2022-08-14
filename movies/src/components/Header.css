@@ -1,0 +1,43 @@
+.Header {
+    background-color:  #1E292D;
+    height: 72px;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+i {
+    font-size: 32px;
+    margin: 3px;
+}
+
+.AppName {
+    font-size: 22px;
+    color: #5bcbd4;
+    font-weight: bold;
+}
+
+@media only all and (max-width: 1035px) {
+    .AppName {
+        font-size: 20px;
+    }
+}
+
+@media only all and (max-width: 795px) {
+    .Header {
+        display: block;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .AppName {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    .PageLink {
+        font-size: 14px;
+    }
+}
+

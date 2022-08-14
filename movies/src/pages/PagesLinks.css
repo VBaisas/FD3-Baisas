@@ -1,0 +1,22 @@
+.PageLink {
+    margin-right: 25px;
+    font-size: 18px;
+    color: #5BBD9C;
+
+}
+
+.ActivePageLink {
+    font-weight: bold;
+}
+
+@media only all and (max-width: 1035px) {
+    .PageLink {
+        font-size: 16px;
+    }
+}
+
+@media only all and (max-width: 795px) {
+    .PageLink {
+        font-size: 14px;
+    }
+}

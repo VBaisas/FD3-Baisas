@@ -1,0 +1,47 @@
+﻿.MovieDetails {
+  margin: 50px 20px;
+  line-height: 1.6;
+}
+
+.MovieDetailsContainer {
+  display: flex;
+}
+
+.MovieDetailsLeft {
+  flex: 1 0 300px;
+}
+
+.MovieDetailsPoster {
+  width: 100%;
+  height: auto;
+}
+
+.MovieDetailsRight {
+  margin-left: 30px;
+}
+
+.MovieOverview {
+  margin-bottom: 40px;
+}
+
+td:first-child {
+  width: 150px;
+  color: #5BBD9C;
+}
+
+@media only all and (max-width: 795px) {
+  .MovieDetailsLeft {
+    flex: 1 0 230px;
+  }
+}
+
+@media only all and (max-width: 575px) {
+  .MovieDetailsContainer {
+    display: block;
+  }
+
+  .MovieDetailsRight {
+    margin-left: 0;
+    font-size: 14px;
+  }
+}
